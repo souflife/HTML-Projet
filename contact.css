@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  animation: gradientAnimation 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background: linear-gradient(45deg, #aea19e, #009ffb, #21ff77, #08a3d3);
+    background-size: 400% 400%;
+    background-position: 0% 100%;
+  }
+  100% {
+    background: linear-gradient(45deg, #08a3d3, #21ff77, #d100fb, #ff5733);
+    background-size: 400% 400%;
+    background-position: 100% 50%;
+  }
+}
+
+h1 {
+  font-size: 26px;
+  color: rgb(140, 29, 122);
+  text-align: center;
+  text-decoration: dashed;
+  animation-name: change-color;
+  animation-duration: 30s;
+}
+@keyframes change-color {
+  from {
+    color: blue;
+  }
+  25% {
+    color: burlywood;
+  }
+  50% {
+    color: rgb(233, 143, 143);
+  }
+}
+
+.border {
+  background-color: rgb(220, 220, 220);
+
+  border: solid 1px;
+  padding: 20px 20px;
+  margin: 130px 130px;
+}
+div p {
+  text-align: center;
+  font-size: 18px;
+}
+form {
+  text-align: center;
+}
+form input {
+  width: 50%;
+  border: none;
+  margin-bottom: 5px;
+  text-align: center;
+}
+input {
+  background-color: rgb(114, 147, 155);
+}
+
+.txtarea {
+  margin-top: 10px;
+
+  width: 300px;
+}
+textarea::placeholder {
+  text-align: center;
+}
+.send {
+  width: 80px;
+}
