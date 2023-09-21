@@ -1,0 +1,113 @@
+.nav {
+  text-align: center;
+}
+nav a {
+  margin-left: 6px;
+  padding: 4px 4px;
+  border: solid 2px;
+  border-radius: 12px 5px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.center-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div video {
+  width: 600px;
+}
+
+.center-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 26px;
+  color: rgb(140, 29, 122);
+  text-align: center;
+  text-decoration: dashed;
+  animation-name: change-color;
+  animation-duration: 30s;
+}
+@keyframes change-color {
+  from {
+    color: blue;
+  }
+  25% {
+    color: burlywood;
+  }
+  50% {
+    color: rgb(233, 143, 143);
+  }
+}
+
+@keyframes change-p {
+  from {
+    color: rgb(255, 0, 212);
+  }
+  25% {
+    color: rgb(135, 222, 144);
+  }
+  50% {
+    color: rgb(161, 147, 147);
+  }
+}
+
+.Home-p {
+  font-size: 16px;
+  color: rgb(38, 37, 38);
+  text-align: center;
+  text-decoration: dashed;
+  animation-name: change-p;
+  animation-duration: 30s;
+}
+
+.border {
+  background-color: rgb(220, 220, 220);
+
+  border: solid 1px;
+  padding: 20px 20px;
+  margin: 40px 130px;
+}
+div p {
+  text-align: center;
+  font-size: 18px;
+}
+form {
+  text-align: center;
+}
+form input {
+  width: 50%;
+  border: none;
+  margin-bottom: 5px;
+  text-align: center;
+}
+input {
+  background-color: rgb(114, 147, 155);
+}
+
+.txtarea {
+  margin-top: 10px;
+
+  width: 300px;
+}
+textarea::placeholder {
+  text-align: center;
+}
+.send {
+  width: 80px;
+}
+section p {
+  text-align: center;
+}
+table {
+  margin: 0 auto; /* margin left and right auto */
+}
